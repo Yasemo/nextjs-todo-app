@@ -24,7 +24,7 @@ export default function TodoForm({ onAdd }: TodoFormProps) {
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Add a new todo..."
+          placeholder="Add a new BRUH..."
           className="input-base bg-white/50 border border-white/30 focus:ring-white/50 placeholder-white/50 text-white"
         />
         <button
