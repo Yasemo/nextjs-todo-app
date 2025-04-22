@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <main className="min-h-screen p-8">
       <div className="max-w-2xl mx-auto backdrop-blur-lg bg-white/30 p-8 rounded-2xl shadow-2xl border border-white/20">
-        <h1 className="text-4xl font-bold mb-8 text-center text-white">Todo App</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-white">Todo App YOYO</h1>
         <TodoForm onAdd={addTodo} />
         <div className="space-y-3">
           {todos.map((todo) => (
